@@ -56,10 +56,25 @@
 # print ("done")
 # changed
 
-temp = ''
-for item in 'python':
-	temp = item + '.' + temp + '.' + item
+# temp = ''
+# for item in 'python':
+# 	temp = item + '.' + temp + '.' + item
 
-print(temp)
-
-
+# print(temp)
+# for item in range(5, 10):
+# 	print(item)
+# for x in range(4):
+# 	for y in range(3):
+# 		print(f'({x}, {y})')
+# numbers = [5, 2, 5, 2, 2]
+# for x_count in numbers:
+# 	output = '' 
+# 	for count in range(x_count):
+# 		output += 'x'
+# 		print(output)
+numbers = [3, 6, 2, 10 ,8, 4]
+max = numbers[0]
+for number in numbers:
+	if number > max:
+		max = number
+print(max)
